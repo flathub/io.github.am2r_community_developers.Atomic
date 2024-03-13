@@ -31,7 +31,7 @@ modules:
           - autoreconf -si ./xdelta3
     buildsystem: autotools
     subdir: xdelta3
-    
+
   - name: openjdk
     buildsystem: simple
     build-commands:
@@ -47,7 +47,9 @@ modules:
         x86_64:
           env:
             RUNTIME: linux-x64
-        # TODO: figure out how to add arm32 and arm64 and allow them in flathub.json too
+        aarch64:
+          env:
+            RUNTIME: linux-arm64
     build-commands:
       - dotnet publish Atomic.Gtk --source nuget-sources -p:BuildPlatform=Gtk -p:DebugType=embedded -c Release --self-contained true -r $RUNTIME
       - cp -r --remove-destination Atomic.Gtk/bin/Release/net8.0/$RUNTIME/publish/* /app/bin/
