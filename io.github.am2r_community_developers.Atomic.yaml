@@ -64,4 +64,4 @@ modules:
       - type: git
         url: https://github.com/AM2R-Community-Developers/Atomic.git
         #tag:  2.2.0
-        commit: af42f81413993765834b18d8a527a666efd03f83
+        commit: 006e77644cfe96897f0047066e45d3d844e04ebb
