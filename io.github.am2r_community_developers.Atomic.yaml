@@ -60,5 +60,5 @@ modules:
       - nuget.json
       - type: git
         url: https://github.com/AM2R-Community-Developers/Atomic.git
-        #tag:  indev, make a new release
-        commit: 1dcf1288d026a971343fc3f0c7a36d73f9cf0f40
+        #tag:  2.2.1
+        commit: 57db134acfd7787e6b4b604f465d3072c04cebaa
