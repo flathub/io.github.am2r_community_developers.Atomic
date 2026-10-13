@@ -15,17 +15,17 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/eto.forms/2.11.0/eto.forms.2.11.0.nupkg",
-        "sha512": "f12c98636e419e4bedadb3b58aa71894680457b6645b8949249c49e7a73fafd1d4dece1a8320b72044a8172d851af529e6fbee091b44bedff43043dc2da83ac8",
+        "url": "https://api.nuget.org/v3-flatcontainer/eto.forms/2.12.0/eto.forms.2.12.0.nupkg",
+        "sha512": "35ff9ecffb5500a64218c23f2c27580381890adec7cc7504f1cc052ea548dc0ab136905286b4b2518627c4dc522f56826af3364d271cbc1597b78f72e0df3449",
         "dest": "nuget-sources",
-        "dest-filename": "eto.forms.2.8.3.nupkg"
+        "dest-filename": "eto.forms.2.12.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/eto.platform.gtk/2.11.0/eto.platform.gtk.2.11.0.nupkg",
-        "sha512": "1f1866953525fe317a7f0906095d055bb8012816fe3c1283c40b59ccd26d634b926a74ac92ced384a9bdbb88a64f0036df8c31401da6dcefc4f79573f17a8831",
+        "url": "https://api.nuget.org/v3-flatcontainer/eto.platform.gtk/2.12.0/eto.platform.gtk.2.12.0.nupkg",
+        "sha512": "a40d1f310ed2f6a89ad5417d81491e59e97bcf773aa0b4a6ad25fb05a048dce1e06ab822aa6163f6ef2bb36ab6f348941449f451c4883a3b4bbd78db0ab978c2",
         "dest": "nuget-sources",
-        "dest-filename": "eto.platform.gtk.2.8.3.nupkg"
+        "dest-filename": "eto.platform.gtk.2.12.0.nupkg"
     },
     {
         "type": "file",
